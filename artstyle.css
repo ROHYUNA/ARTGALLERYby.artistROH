@@ -1,0 +1,13 @@
+body{font-family: 'Gowun Batang', serif;}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #356558 !important; font-weight: bold;
+}
+
+/*작품 제목 영역*/
+h3{color: #356558;}
+
+/*이스터에그 이동 링크*/
+#RYN{font-weight: bold; color: #356558;}

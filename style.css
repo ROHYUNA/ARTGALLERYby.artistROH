@@ -1,0 +1,54 @@
+body{font-family: 'Gowun Batang', serif;}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #356558 !important; font-weight: bold;
+}
+
+/*홈 화면 칼럼 나누기*/
+#mainart{column-count: 2;
+  column-gap: 40px;
+  column-rule: 3px solid #356558;}
+
+/*메인화면 작품 설명*/
+#traininfo{margin-top: 370px;}
+
+/*작가 정보*/
+  #infotitle{color: #356558;}
+
+/*이스터에그 이동 링크*/
+  #RYN{font-weight: bold; color: #356558;}
+
+/*연락처*/
+  #email{color: #356558 ;}
+  #ins{color:#356558;}
+  #fcb{color: #356558;}
+
+/*작품 소개 영역 중 이미지 hover*/
+
+*{ padding: 0; margin: 0; }
+li{ list-style: none; }
+
+.gallery{
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gallery li{
+  float: left;
+  width: 300px; height: 200px;
+  margin-right: 20px;
+}
+.gallery li:last-child{ margin-right: 0; }
+
+.gallery a{
+  display: block;
+  width: 100%; height: 100%;
+  overflow: hidden;
+}
+
+.gallery img{ transition: 0.3s; }
+.gallery a:hover img, .gallery a:focus img{
+  transform: scale(1.2);
+}
